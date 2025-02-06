@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 
     public static final Scanner input = new Scanner(System.in);
-    public static boolean status = true;
+    public static boolean status;
     public static int index = 0;
     public static Player user;
     public static final Quiz[] questions = {
